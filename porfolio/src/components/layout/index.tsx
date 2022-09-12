@@ -4,6 +4,7 @@ import Body from "@components/body"
 import { useRouter } from "next/router"
 import { useEffect, useMemo } from "react"
 import React from "react"
+import Footer from "@components/footer"
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     const Router = useRouter()
@@ -16,6 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Body>
                     <div>{children}</div>
                 </Body>
+                <Footer />
             </div>
         </div>
     )

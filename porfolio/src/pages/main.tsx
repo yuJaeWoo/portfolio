@@ -1,3 +1,5 @@
+import Desc from "@components/section/desc";
+import Intro from "@components/section/intro";
 import Head from "next/head";
 
 export default function Main() {
@@ -7,8 +9,10 @@ export default function Main() {
         <title>재우's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      컴포넌트
+      {/* --body children-- */}
+      <Intro />
+      <Desc />
+      {/* --body children-- */}
     </div>
   );
 }
