@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   };
   return (
     <>
-    <div className="bg-geometry bg-[length:1300px_800px] bg-bottom  bg-contain h-screen p-8">
+    <div className="bg-geometry3 bg-[length:1800px_400px] bg-bottom bg-contain h-screen p-8 bg-repeat-x">
       <br />
       <br />
       <br />

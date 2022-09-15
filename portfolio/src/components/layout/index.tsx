@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
     return (
         <div className="sticky flex flex-col ">
-            <div className="bg-header bg-contain bg-local float-left " >
+            <div className="bg-header bg-contain bg-local bg-no-repeat float-left " >
                 <div className=" p-8">
                     <div >
                         <Header />
