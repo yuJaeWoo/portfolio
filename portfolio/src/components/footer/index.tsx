@@ -10,10 +10,12 @@ const Footer: React.FC = () => {
   };
   return (
     <>
-      <div className="border-t-2 flex justify-between w-full bg-slate-50">
-        <h1 onClick={goHome}>footer</h1>
-       
-      </div>
+    <div className="bg-geometry bg-[length:1300px_800px] bg-bottom  bg-contain h-screen p-8">
+      <br />
+      <br />
+      <br />
+      
+    </div>
     </>
   );
 };

@@ -1,8 +1,15 @@
+import React from "react"
+
 const Desc = () => {
     return (
-        <div>
-            이부분은 설명란 입니다.
+        <div className="flex flex-col ">
+        <div className="text-9xl max-w-full flex flex-row-reverse subpixel-antialiased">
+            WEB
+        </div>
+        <div className="text-9xl max-w-full flex flex-row-reverse subpixel-antialiased">
+            PORTFOLIO
+        </div>
         </div>
     )
 }
-export default Desc
+export default React.memo(Desc)

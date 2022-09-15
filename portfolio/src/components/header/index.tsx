@@ -9,12 +9,12 @@ const Header: React.FC = () => {
     Router.push(`/main`);
   };
   return (
-    <>
-      <div className="border-b-2 border-black flex justify-between w-full bg-slate-50">
-        <h1 onClick={goHome}>Portfolio</h1>
+    <div >
+      <div className="border-b-4 border-black flex justify-between w-full ">
+        <h1 onClick={goHome}>Front-End Developer</h1>
        
       </div>
-    </>
+    </div>
   );
 };
 
