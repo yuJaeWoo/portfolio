@@ -20,9 +20,13 @@ export default function Main() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="flex justify-between">
       <div></div>
-        
         <Middle />
         <Stack />
       </div>

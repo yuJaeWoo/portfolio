@@ -12,7 +12,7 @@ const Middle = () => {
             <br/>
 
             <div className="text-3xl max-w-full subpixel-antialiased">
-                그런 개발자가 되는것이 꿈
+                그런 개발자가 되는 꿈
             </div>
         </div>
         </div>
