@@ -11,8 +11,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     // console.log(Router);
 
     return (
-        <div>
-            <div className="bg-#f0ffff h-screen">
+        <div className="p-8 bg-slate-50">
+            <div className="bg-slate-50 h-screen">
                 <Header />
                 <Body>
                     <div>{children}</div>

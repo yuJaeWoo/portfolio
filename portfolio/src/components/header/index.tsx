@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   };
   return (
     <>
-      <div className="border-b-2 flex justify-between w-full bg-orange">
+      <div className="border-b-2 border-black flex justify-between w-full bg-slate-50">
         <h1 onClick={goHome}>Portfolio</h1>
        
       </div>
