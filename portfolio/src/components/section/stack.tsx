@@ -7,11 +7,11 @@ const Stack = () => {
     const [hide, setHide] = useState<boolean>(true);	// 메뉴접기 상태
     const [stack, setStack] = useState<string>("");	// 메뉴접기 상태
   
-        useEffect(()=>{
-            setInterval(()=>{
-                setStack(useStackShow)
-           }, 3000);
-        }, [stack])
+        // useEffect(()=>{
+        //     setInterval(()=>{
+        //         setStack(useStackShow)
+        //    }, 3000);
+        // }, [stack])
         
     return (
         <div className="flex flex-col ">

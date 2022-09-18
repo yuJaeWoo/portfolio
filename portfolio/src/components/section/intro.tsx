@@ -9,7 +9,6 @@ const Intro = () => {
                 Yujaewoo
             </div>
             <br/>
-
             <div className="text-5xl max-w-full subpixel-antialiased">
                 Front-End
             </div>

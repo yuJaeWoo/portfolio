@@ -26,12 +26,16 @@ export default function Main() {
       <br />
       <br />
       <div className="flex justify-between">
-      <div></div>
+        <div />
         <Middle />
         <Stack />
       </div>
-      
+      {/* <div className="flex justify-between">
+        <div />
+        <Middle />
+        <div />
+      </div> */}
       {/* --body children-- */}
-    </div>
+      </div>
   );
 }
