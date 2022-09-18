@@ -12,10 +12,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        'geometry': "url('../public/images/geometry.png')",
-        'geometry2': "url('../public/images/geometry2.png')",
-        'geometry3': "url('../public/images/geometry3.png')",
-        'header': "url('../public/images/header.png')",
+        // 'geometry3': "url('../public/images/paint1.png')",
+        'header': "url('../public/images/paintB1.png')",
+        'geometry3': "url('../public/images/paintB2.png')",
+        // 'header': "url('../public/images/header.png')",
       })
     },
   },
