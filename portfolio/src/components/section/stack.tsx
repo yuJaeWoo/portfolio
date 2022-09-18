@@ -1,10 +1,18 @@
-import React, { useState } from "react"
+import useStackShow from "@hooks/useStackShow";
+import React, { useEffect, useState } from "react"
 
 const Stack = () => {
 
     const [close, setClose] = useState<boolean>(false);	// 메뉴닫기 상태 
     const [hide, setHide] = useState<boolean>(true);	// 메뉴접기 상태
-
+    const [stack, setStack] = useState<string>("");	// 메뉴접기 상태
+  
+        useEffect(()=>{
+            setInterval(()=>{
+                setStack(useStackShow)
+           }, 3000);
+        }, [stack])
+        
     return (
         <div className="flex flex-col ">
         <div className="text-5xl max-w-full flex  subpixel-antialiased">
@@ -21,7 +29,7 @@ const Stack = () => {
         </div>
         </div>
         <br />
-        {!hide ? <div className="bg-cyan-50 text-5xl subpixel-antialiased">hello</div> : <></>}
+        {!hide ? <div className=" text-5xl subpixel-antialiased">{stack}</div> : <></>}
         </div>
     )
 }
