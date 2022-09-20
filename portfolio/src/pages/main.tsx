@@ -2,40 +2,17 @@ import Desc from "@components/section/desc";
 import Intro from "@components/section/intro";
 import Middle from "@components/section/middle";
 import Stack from "@components/section/stack";
+import Terminal from "@components/terminal";
 import Head from "next/head";
 
 export default function Main() {
   return (
-    <div className="flex flex-col min-h-screen py-2">
+    <div className="flex flex-col py-2">
       <Head>
         <title>재우's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* --body children-- */}
-      <div className="flex justify-between">
-        <Intro />
-        <div></div>
-        <Desc />
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="flex justify-between">
-        <div />
-        <Middle />
-        <Stack />
-      </div>
-      {/* <div className="flex justify-between">
-        <div />
-        <Middle />
-        <div />
-      </div> */}
-      {/* --body children-- */}
-      </div>
+        <Terminal />
+    </div>
   );
 }

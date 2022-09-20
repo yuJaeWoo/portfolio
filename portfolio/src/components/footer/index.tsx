@@ -10,7 +10,7 @@ function Footer({ item }: { item: React.ReactNode; }) {
   };
   return (
     <>
-      <div className="bg-geometry3 bg-[length:1800px_400px] bg-bottom bg-contain h-screen p-8 bg-repeat-x">
+      <div className="">
         <br />
         <br />
         {item}

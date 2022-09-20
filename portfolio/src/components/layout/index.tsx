@@ -13,22 +13,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     // console.log(Router);
 
     return (
-        <div className="sticky flex flex-col ">
-            <div className="bg-header bg-contain bg-local bg-no-repeat float-left " >
-                <div className=" p-8">
-                    <div >
-                        <Header />
-                        <Body>
-                            <div>{children}</div>
-                        </Body>
-                        
-                    </div>
-                    </div>
-
+        <div className="w-full p-0">
+                        <div >
+                            <Header />
+                            <Body>
+                                <div>{children}</div>
+                            </Body>
             </div>
-        <div>
-        <Footer item={<FooterDesc />} />
-        </div>
         </div>
     )
 }

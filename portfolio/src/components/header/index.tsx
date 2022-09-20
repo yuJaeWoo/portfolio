@@ -10,8 +10,8 @@ const Header: React.FC = () => {
   };
   return (
     <div >
-      <div className="border-b-4 border-black flex justify-between w-full ">
-        <h1 onClick={goHome}>Front-End Developer</h1>
+      <div className="">
+        {/* <h1 onClick={goHome}>Front-End Developer</h1> */}
        
       </div>
     </div>
