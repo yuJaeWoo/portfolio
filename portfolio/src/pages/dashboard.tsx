@@ -36,10 +36,10 @@ export default function Dashboard() {
                     <p onClick={()=>{choosePage("profile")}}> [profile] </p>
                     <p>|</p>
                     <p>|</p>
-                    <p onClick={()=>{choosePage("project")}}> [project] </p>
-                    <p>|</p>
-                    <p>|</p>
                     <p onClick={()=>{choosePage("contact")}}> [contact] </p>
+                    <p>|</p>
+                    <p>|</p>
+                    <p onClick={()=>{choosePage("project")}}> [project] </p>
                     <br/>
                 </div>
             </div> : <></>}

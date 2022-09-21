@@ -1,7 +1,9 @@
 const Profile = () => {
     return (
-        <div>
-            profile
+        <div className="main">
+            <div className="typewriter">
+                <p>안녕하세요 유재우입니다</p>
+            </div>
         </div>
     )
 }

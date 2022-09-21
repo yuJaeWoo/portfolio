@@ -1,7 +1,11 @@
+import Atomy from "@components/projectList/atmoy"
+import Samsung from "@components/projectList/samsung"
+
 const Project = () => {
     return (
-        <div>
-            project
+        <div className="main">
+            <Atomy />
+            
         </div>
     )
 }
