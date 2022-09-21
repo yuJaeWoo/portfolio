@@ -1,3 +1,4 @@
+import Loading from "@components/loading"
 import Router from "next/router"
 import React from "react"
 import { useState } from "react"
@@ -11,15 +12,23 @@ const Terminal = () => {
         (<div key={3}><p className="goD" onClick={()=>{goDashboard()}}>&gt; ----[press Click Me]----</p><br/></div>)
     ]
     const [va, setVa] = useState<any>([arr[0]])
+    const [load, setLoad] = useState<boolean>(false)
+    console.log(load)
     const goDashboard = () => {
-        Router.push('/dashboard')
+        setLoad(true)
       };
-    return (
-        <div>
-               <div className="typewriter" onClick={()=>{
-                setVa([...va, arr[count]])
-                count++
-                }}>{va}</div>
+      if(load === true){
+        console.log("load == true")
+        setTimeout(()=>{
+            Router.push('/dashboard')
+        },2000)
+    }
+    return load ? (<><Loading /></>):(
+        <div className="w-full" onClick={()=>{
+            setVa([...va, arr[count]])
+            count++
+            }}>
+               <div className="typewriter" >{va}</div>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Head from "next/head";
 
 export default function Main() {
   return (
-    <div className="flex flex-col py-2">
+    <div className="main">
       <Head>
         <title>재우's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />

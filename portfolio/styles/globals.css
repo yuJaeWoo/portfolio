@@ -5,15 +5,22 @@
 body {
     
   height: calc(100vh - 8em);
-  padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);  
   }
-  
+  .main {
+    padding: 2em;
+  }
   .typewriter{
     width: fit-content;
   }
+  .Desc{
+    color: #9bd65cd6;
+    text-shadow: 0 0 10px #9bd65c;
+  }
+
+
   .typewriter p{
     color: #66FF66;
     text-shadow: 0 0 10px #33FF33;

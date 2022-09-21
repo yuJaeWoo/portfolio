@@ -2,21 +2,16 @@ import Router, { useRouter } from "next/router";
 import React from "react";
 
 
-function Footer({ item }: { item: React.ReactNode; }) {
-  const route = useRouter();
+function Footer() {
+  // const route = useRouter();
 
-  const goHome = () => {
-    Router.push(`/main`);
-  };
+  // const goHome = () => {
+  //   Router.push(`/main`);
+  // };
   return (
-    <>
-      <div className="">
-        <br />
-        <br />
-        {item}
-        <br />
+      <div className="Desc absolute bottom-5 text-center w-full">
+        © 2022 - developed by jaewu Yu
       </div>
-    </>
   );
 }
 

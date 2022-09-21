@@ -13,13 +13,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     // console.log(Router);
 
     return (
-        <div className="w-full p-0">
-                        <div >
-                            <Header />
-                            <Body>
-                                <div>{children}</div>
-                            </Body>
+        <>
+            <div  className="flex flex-col justify-between">
+                <Header />
+                <Body>
+                    <div>{children}</div>
+                </Body>
+                <div></div>
             </div>
-        </div>
+                <Footer />
+                </>
+
     )
 }
