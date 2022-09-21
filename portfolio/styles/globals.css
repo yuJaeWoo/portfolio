@@ -71,3 +71,17 @@ body {
     50% {border-color: rgb(25,25,25);}
     
   }
+
+  .loading--cycle {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-top-color: royalblue;
+    animation: spin 0.8s infinite ease-in-out;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }

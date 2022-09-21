@@ -11,7 +11,8 @@ const Header: React.FC = () => {
   return (
     <div >
       <div className="">
-        {/* <h1 onClick={goHome}>Front-End Developer</h1> */}
+       
+        {/* <h1 onClick={goHome}>Front-Endd Developer</h1> */}
        
       </div>
     </div>

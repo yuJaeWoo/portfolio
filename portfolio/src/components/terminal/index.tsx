@@ -21,7 +21,7 @@ const Terminal = () => {
         console.log("load == true")
         setTimeout(()=>{
             Router.push('/dashboard')
-        },2000)
+        },1000)
     }
     return load ? (<><Loading /></>):(
         <div className="w-full" onClick={()=>{

@@ -8,6 +8,7 @@ export default function Dashboard() {
         <title>재우's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-asdfas    </div>
+    
+    </div>
   );
 }
