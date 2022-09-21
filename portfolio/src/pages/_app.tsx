@@ -5,7 +5,7 @@ import useDeviceCheck from '@hooks/useDeviceCheck'
 
 function MyApp({ Component, pageProps }: AppProps) {
 const {isDesktopOrMobile} = useDeviceCheck();
-console.log("isPc?", isDesktopOrMobile)
+// console.log("isPc?", isDesktopOrMobile)
 
   return isDesktopOrMobile ? (
     <div>

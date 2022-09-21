@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Router from "next/router";
 import { useState } from "react";
-import Contatct from "./contact";
-import Profile from "./profile";
-import Project from "./project";
 
 export default function Dashboard() {
     const [load, setLoad] = useState<boolean>(false)
@@ -13,7 +10,7 @@ export default function Dashboard() {
     },2000)
     setTimeout(()=>{
         setLoad(true)
-    },5000)
+    },4000)
 
     const choosePage = (pageName:string) => {
         Router.push(`/${pageName}`)
@@ -27,11 +24,11 @@ export default function Dashboard() {
       </Head>
         <div className="flex flex-col">
         <div className="typewriter">
-            <p>$ ls -al</p>
+            <p>yjw@you:~/portfolio$ ls -al</p>
         </div>
         <br/>
             {directory? <div className="typewriter flex flex-row">
-                <div><p>$ [portfolio] ---- </p></div>
+                <div><p>yjw@you:~/portfolio$ [portfolio] ---- </p></div>
                 <div>
                     <p onClick={()=>{choosePage("profile")}}> [profile] </p>
                     <p>|</p>
