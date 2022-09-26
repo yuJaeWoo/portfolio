@@ -10,7 +10,7 @@ const MobileLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex flex-col justify-between">
                 <Header />
                 <Body>
-                    <div>{children}</div>
+                    {children}
                 </Body>
                 <div></div>
             </div>

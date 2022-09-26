@@ -7,7 +7,7 @@ import React from "react"
 import Footer from "@components/footer"
 import Desc from "@components/section/desc"
 import FooterDesc from "@components/section/footerDesc"
-import useMediaQuery from "react-responsive/types/useMediaQuery"
+import { useMediaQuery } from 'react-responsive'
 import DesktopLayout from "./desktop.layout"
 import MobileLayout from "./mobile.layout"
 
